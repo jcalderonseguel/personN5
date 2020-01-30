@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'netcoreapp3.0'">
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Grpc" Version="2.26.0" />
+    <PackageReference Include="Grpc.AspNetCore" Version="2.23.2" />
+    <PackageReference Include="Grpc.HealthCheck" Version="2.25.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="sqlkata" Version="1.1.7" />
+    <PackageReference Include="MediatR" Version="7.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0-rc2" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Super.EWalletCore.PersonDataManagement.ApiClients\Super.EWalletCore.PersonDataManagement.ApiClients.csproj" />
+    <ProjectReference Include="..\Super.EWalletCore.PersonDataManagement.Domain\Super.EWalletCore.PersonDataManagement.Domain.csproj" />
+    <ProjectReference Include="..\Super.EWalletCore.PersonDataManagement.Application\Super.EWalletCore.PersonDataManagement.Application.csproj" />
+    <ProjectReference Include="..\Super.EWalletCore.PersonDataManagement.Persistance\Super.EWalletCore.PersonDataManagement.Persistance.csproj" />
+  </ItemGroup>
+
+</Project>

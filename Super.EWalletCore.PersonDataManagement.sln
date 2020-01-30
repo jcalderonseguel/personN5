@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29318.209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Super.EWalletCore.PersonDataManagement.Application", "src\Super.EWalletCore.PersonDataManagement.Application\Super.EWalletCore.PersonDataManagement.Application.csproj", "{3B319075-A174-497F-8AAD-D9EC22B4BD1A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Super.EWalletCore.PersonDataManagement.Bootstrap", "src\Super.EWalletCore.PersonDataManagement.Bootstrap\Super.EWalletCore.PersonDataManagement.Bootstrap.csproj", "{993793EE-7471-4D8E-849D-0AD3DE19B766}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Super.EWalletCore.PersonDataManagement.Persistance", "src\Super.EWalletCore.PersonDataManagement.Persistance\Super.EWalletCore.PersonDataManagement.Persistance.csproj", "{EF444A9E-7D87-4DEF-AD27-206346BD65D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Super.EWalletCore.PersonDataManagement.Domain", "src\Super.EWalletCore.PersonDataManagement.Domain\Super.EWalletCore.PersonDataManagement.Domain.csproj", "{38B910EF-E75C-4389-AC7A-C9E08141E1C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{5E3BE6EB-E705-4CEF-868F-7E3B67F141B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{7133FD56-F9D1-44D5-AC53-D2309605A0BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{0626D238-64D8-431C-86D7-277B3B32414A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Super.EWalletCore.PersonDataManagement.API", "src\Super.EWalletCore.PersonDataManagement.API\Super.EWalletCore.PersonDataManagement.API.csproj", "{CCF020B9-03C5-47E1-8866-39317FDA1843}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9AF7F22E-28E0-4364-B630-3F9B22034706}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Super.EWalletCore.PersonDataManagement.MockService", "Tests\MockService\Super.EWalletCore.PersonDataManagement.MockService.csproj", "{FA64B644-216B-469C-A2E6-EA69A5F3ECCA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Super.EWalletCore.PersonDataManagement.Application.UnitTests", "Tests\Super.EWalletCore.PersonDataManagement.Application.UnitTests\Super.EWalletCore.PersonDataManagement.Application.UnitTests.csproj", "{6A0DD017-29AB-408E-A850-E7B66143D01D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Super.EWalletCore.PersonDataManagement.Persistence.IntegrationTests", "Tests\Super.EWalletCore.PersonDataManagement.Persistence.IntegrationTests\Super.EWalletCore.PersonDataManagement.Persistence.IntegrationTests.csproj", "{9AF49ED3-BC78-4707-B304-E6579EEB9983}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Super.EWalletCore.PersonDataManagement.ApiClients", "src\Super.EWalletCore.PersonDataManagement.ApiClients\Super.EWalletCore.PersonDataManagement.ApiClients.csproj", "{1172BF9C-D4C0-4FA8-91B2-33AE88101502}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B319075-A174-497F-8AAD-D9EC22B4BD1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B319075-A174-497F-8AAD-D9EC22B4BD1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B319075-A174-497F-8AAD-D9EC22B4BD1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B319075-A174-497F-8AAD-D9EC22B4BD1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{993793EE-7471-4D8E-849D-0AD3DE19B766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{993793EE-7471-4D8E-849D-0AD3DE19B766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{993793EE-7471-4D8E-849D-0AD3DE19B766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{993793EE-7471-4D8E-849D-0AD3DE19B766}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF444A9E-7D87-4DEF-AD27-206346BD65D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF444A9E-7D87-4DEF-AD27-206346BD65D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF444A9E-7D87-4DEF-AD27-206346BD65D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF444A9E-7D87-4DEF-AD27-206346BD65D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38B910EF-E75C-4389-AC7A-C9E08141E1C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38B910EF-E75C-4389-AC7A-C9E08141E1C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38B910EF-E75C-4389-AC7A-C9E08141E1C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38B910EF-E75C-4389-AC7A-C9E08141E1C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCF020B9-03C5-47E1-8866-39317FDA1843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCF020B9-03C5-47E1-8866-39317FDA1843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCF020B9-03C5-47E1-8866-39317FDA1843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCF020B9-03C5-47E1-8866-39317FDA1843}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA64B644-216B-469C-A2E6-EA69A5F3ECCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA64B644-216B-469C-A2E6-EA69A5F3ECCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA64B644-216B-469C-A2E6-EA69A5F3ECCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA64B644-216B-469C-A2E6-EA69A5F3ECCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A0DD017-29AB-408E-A850-E7B66143D01D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A0DD017-29AB-408E-A850-E7B66143D01D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A0DD017-29AB-408E-A850-E7B66143D01D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A0DD017-29AB-408E-A850-E7B66143D01D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AF49ED3-BC78-4707-B304-E6579EEB9983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AF49ED3-BC78-4707-B304-E6579EEB9983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AF49ED3-BC78-4707-B304-E6579EEB9983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AF49ED3-BC78-4707-B304-E6579EEB9983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1172BF9C-D4C0-4FA8-91B2-33AE88101502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1172BF9C-D4C0-4FA8-91B2-33AE88101502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1172BF9C-D4C0-4FA8-91B2-33AE88101502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1172BF9C-D4C0-4FA8-91B2-33AE88101502}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3B319075-A174-497F-8AAD-D9EC22B4BD1A} = {0626D238-64D8-431C-86D7-277B3B32414A}
+		{993793EE-7471-4D8E-849D-0AD3DE19B766} = {5E3BE6EB-E705-4CEF-868F-7E3B67F141B7}
+		{EF444A9E-7D87-4DEF-AD27-206346BD65D1} = {5E3BE6EB-E705-4CEF-868F-7E3B67F141B7}
+		{38B910EF-E75C-4389-AC7A-C9E08141E1C6} = {0626D238-64D8-431C-86D7-277B3B32414A}
+		{CCF020B9-03C5-47E1-8866-39317FDA1843} = {7133FD56-F9D1-44D5-AC53-D2309605A0BB}
+		{FA64B644-216B-469C-A2E6-EA69A5F3ECCA} = {9AF7F22E-28E0-4364-B630-3F9B22034706}
+		{6A0DD017-29AB-408E-A850-E7B66143D01D} = {9AF7F22E-28E0-4364-B630-3F9B22034706}
+		{9AF49ED3-BC78-4707-B304-E6579EEB9983} = {9AF7F22E-28E0-4364-B630-3F9B22034706}
+		{1172BF9C-D4C0-4FA8-91B2-33AE88101502} = {5E3BE6EB-E705-4CEF-868F-7E3B67F141B7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66340BE6-23A0-40B1-97F2-C3AC4FF06B6E}
+	EndGlobalSection
+EndGlobal
